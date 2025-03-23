@@ -5,7 +5,7 @@ import principal from "./img/principal.png";
 const Banner = () => {
   return (
     // Banner de la pagina
-    <section>
+    <section className="bg-white">
       <div className="grid grid-cols-[3fr_1fr]">
         <article className="py-8 px-20">
           <Nav />
@@ -14,7 +14,7 @@ const Banner = () => {
               <h2 className="text-[#ffa61e] text-lg tracking-[15px] mb-5">
                 INTRO
               </h2>
-              <h1 className="text-4xl font-bold text-[#ffa61e]">
+              <h1 className="text-4xl font-bold text-[#ffa61e] font-[Righteous]">
                 Guia De Fundamentos de JavaScript
               </h1>
 
@@ -49,13 +49,13 @@ const Banner = () => {
                 </div>
               </div>
             </article>
-            
+
             {/* Imagen principal */}
             <div>
               <img
                 src={principal}
                 alt="Imagen Principal"
-                className="relative w-[1200px] left-40 border-2 border-black"
+                className="relative w-[1200px] left-40 top-16 border-2 border-black"
               />
             </div>
           </header>

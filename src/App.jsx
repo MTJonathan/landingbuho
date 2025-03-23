@@ -4,7 +4,7 @@ import './assets/style/App.css'
 function App() {
 
   return (
-    <main>
+    <main className="m-8 z-10">
       <Banner />
     </main>
   )
