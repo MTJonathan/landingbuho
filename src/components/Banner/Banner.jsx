@@ -14,7 +14,7 @@ const Banner = () => {
               <h2 className="text-[#ffa61e] text-lg tracking-[15px] mb-5">
                 INTRO
               </h2>
-              <h1 className="text-4xl font-bold text-[#ffa61e] font-[Righteous]">
+              <h1 className="text-4xl font-[500] text-[#ffa61e] font-[Righteous]">
                 Guia De Fundamentos de JavaScript
               </h1>
 
