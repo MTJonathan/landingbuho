@@ -3,6 +3,7 @@ import Logos from "./components/Logos/Logos";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import Action from "./components/Action/Action";
+import Testimonial from "./components/Testimonial/Testimonial";
 import "./assets/style/App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Features />
       <Action />
+      <Testimonial />
     </main>
   );
 }
