@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import Action from "./components/Action/Action";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Suscribe from "./components/Suscribe/Suscribe";
 import "./assets/style/App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Action />
       <Testimonial />
+      <Suscribe />
     </main>
   );
 }
