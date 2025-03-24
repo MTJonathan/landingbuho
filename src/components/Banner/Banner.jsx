@@ -19,7 +19,7 @@ const Banner = () => {
               </h1>
 
               {/* Descripcion principal */}
-              <p className="my-8 text-[#908b85]">
+              <p className="my-8 text-[#908b85] text-sm">
                 JavaScript es el lenguaje de programación más utilizado en el
                 desarrollo web. Si alguna vez has querido aprender a programar y
                 no sabes por dónde empezar, esta guía es para ti. Con

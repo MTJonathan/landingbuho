@@ -11,7 +11,7 @@ const AboutHeader = () => {
           Por qué nuestra guía es la mejor opción para aprender JavaScript
         </h2>
 
-        <p className="text-[#908b85]">
+        <p className="text-[#908b85] text-sm">
           En GuiaJs, nuestra misión es ayudar a las personas a dar sus primeros
           pasos en el mundo de la programación. Brindamos recursos educativos
           claros y estructurados en un sector donde la información suele ser

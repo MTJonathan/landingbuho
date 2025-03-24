@@ -1,7 +1,8 @@
 import Banner from "./components/Banner/Banner";
-import "./assets/style/App.css";
 import Logos from "./components/Logos/Logos";
 import About from "./components/About/About";
+import Features from "./components/Features/Features";
+import "./assets/style/App.css";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Banner />
       <Logos />
       <About />
+      <Features />
     </main>
   );
 }
