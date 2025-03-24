@@ -11,8 +11,18 @@ const Footer = () => {
         </p>
         <form className="flex justify-center">
           <label className="bg-white rounded-xl p-1">
-            <input className="bg-transparent outline-none text-black" type="email" placeholder="Tu Correo" required />
-            <button className="bg-[#ef5532] py-2 px-4 text-xl rounded-xl text-white" type="submit">➜</button>
+            <input
+              className="bg-transparent outline-none text-black"
+              type="email"
+              placeholder="Tu Correo"
+              required
+            />
+            <button
+              className="bg-[#ef5532] py-2 px-4 text-xl rounded-xl text-white"
+              type="submit"
+            >
+              ➜
+            </button>
           </label>
         </form>
       </header>
@@ -44,7 +54,9 @@ const Footer = () => {
         </ul>
       </div>
 
-      <p className="col-span-2 text-center mt-10 mb-7">© 2025 - Todos los derechos reservados.</p>
+      <p className="col-span-2 text-center mt-10 mb-7">
+        © 2025 - Todos los derechos reservados.
+      </p>
     </footer>
   );
 };
