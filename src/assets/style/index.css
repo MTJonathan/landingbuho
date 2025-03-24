@@ -11,3 +11,6 @@
 body{
  background-color: #dbd3c7;
 }
+button:hover{
+  scale: 1.05;
+}
