@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import Action from "./components/Action/Action";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Suscribe from "./components/Suscribe/Suscribe";
+import Footer from "./components/Footer/Footer";
 import "./assets/style/App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Action />
       <Testimonial />
       <Suscribe />
+      <Footer />
     </main>
   );
 }
