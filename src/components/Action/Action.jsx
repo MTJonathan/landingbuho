@@ -1,6 +1,12 @@
+import { useRef } from "react";
+import Contactar from "../modals/Contactar";
 import js from "./img/javascript.png";
 
 const Action = () => {
+  const contactarRef = useRef(null);
+
+  const OpenDialog = () => contactarRef.current.showModal();
+  const CloseDialog = () => contactarRef.current.close();
   return (
     <section className="bg-[#D0815C] py-8 px-20">
       <div className="grid grid-cols-2">
@@ -12,9 +18,13 @@ const Action = () => {
             No esperes más. Da el primer paso hacia tu futuro en la
             programación.
           </h3>
-          <button className="bg-[#ef5532] px-14 py-5 rounded-lg text-white text-xl font-bold">
+          <button
+            onClick={OpenDialog}
+            className="bg-[#ef5532] px-14 py-5 rounded-lg text-white text-xl font-bold"
+          >
             Ordena Ahora s./50
           </button>
+          <Contactar ref={contactarRef} closeDialog={CloseDialog} />
         </header>
         <div className="grid place-items-center">
           <img src={js} alt="Logo de JS" />

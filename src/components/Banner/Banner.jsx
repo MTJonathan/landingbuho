@@ -1,8 +1,14 @@
+import { useRef } from "react";
 import Nav from "../Nav/Nav";
 import NavIconos from "../Nav/NavIconos";
-
+import Contactar from "../modals/Contactar";
 import principal from "./img/principal.png";
 const Banner = () => {
+  const contactarRef = useRef(null);
+
+  const OpenDialog = () => contactarRef.current.showModal();
+  const CloseDialog = () => contactarRef.current.close();
+
   return (
     // Banner de la pagina
     <section className="bg-white">
@@ -27,9 +33,15 @@ const Banner = () => {
                 interactivos, te llevaré de la mano para que domines los
                 conceptos esenciales de JavaScript sin complicaciones.
               </p>
-              <button className="bg-[#ef5532] px-14 py-5 rounded-lg text-white text-lg font-bold">
-                Ordena ahora
+              <button
+                className="bg-[#ef5532] px-14 py-5 rounded-lg text-white text-lg font-bold"
+                onClick={OpenDialog}
+              >
+                Obtener ahora
               </button>
+
+              {/*Contactar dialog*/}
+              <Contactar ref={contactarRef} closeDialog={CloseDialog} />
 
               {/* Estadisticas del producto*/}
               <div className="flex gap-8 mt-8">
