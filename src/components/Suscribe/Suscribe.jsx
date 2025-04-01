@@ -1,6 +1,6 @@
 const Suscribe = () => {
   return (
-    <section className="grid grid-cols-2 bg-[#F4D5BA] py-8 px-20 gap-10">
+    <section className="grid md:grid-cols-2 bg-[#F4D5BA] py-8 px-4 md:px-20 gap-10">
       <header>
         <h2 class="text-3xl text-[#ffa61e] font-[900] my-4">
           📩 Obten más Información

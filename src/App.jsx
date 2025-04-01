@@ -10,7 +10,7 @@ import "./assets/style/App.css";
 
 function App() {
   return (
-    <main className="m-8 z-10">
+    <main className="m-0 md:m-8 md:z-10">
       <Banner />
       <Logos />
       <About />

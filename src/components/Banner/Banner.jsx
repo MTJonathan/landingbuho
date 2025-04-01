@@ -12,8 +12,8 @@ const Banner = () => {
   return (
     // Banner de la pagina
     <section className="bg-white">
-      <div className="grid grid-cols-[3fr_1fr]">
-        <article className="py-8 px-20">
+      <div className="grid md:grid-cols-[3fr_1fr]">
+        <article className="p-2 md:py-8 md:px-20">
           <Nav />
           <header className="flex my-16">
             <article>
@@ -63,7 +63,7 @@ const Banner = () => {
             </article>
 
             {/* Imagen principal */}
-            <div>
+            <div className="hidden lg:block">
               <img
                 src={principal}
                 alt="Imagen Principal"
@@ -72,7 +72,7 @@ const Banner = () => {
             </div>
           </header>
         </article>
-        <div className="bg-[#ffa61e] w-full py-8 px-16">
+        <div className="hidden md:block bg-[#ffa61e] w-full py-8 px-16">
           <NavIconos />
         </div>
       </div>

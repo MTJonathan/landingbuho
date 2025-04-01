@@ -31,9 +31,7 @@ const Contactar = forwardRef(({ closeDialog }, ref) => {
             placeholder="Telefono"
           />
         </label>
-        <button className="bg-[#ef5532] py-3 px-14 rounded-3xl text-white">
-          <ButtonContactar />
-        </button>
+        <ButtonContactar closeDialog={closeDialog} />
       </form>
       <button className="font-[900]" onClick={closeDialog}>
         Cerrar
