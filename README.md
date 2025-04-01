@@ -34,10 +34,10 @@ Si deseas ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 ## 📌 Características
 
-✅ **Guía en PDF** – Descarga un recurso completo para aprender JavaScript.
-✅ **Interfaz moderna** – Diseño atractivo y responsivo.
-✅ **Carga rápida** – Optimización con Vite para un rendimiento óptimo.
-✅ **Botón de acción** – Accede a la guía con un solo clic.
+- ✅ **Guía en PDF** – Descarga un recurso completo para aprender JavaScript.
+- ✅ **Interfaz moderna** – Diseño atractivo y responsivo.
+- ✅ **Carga rápida** – Optimización con Vite para un rendimiento óptimo.
+- ✅ **Botón de acción** – Accede a la guía con un solo clic.
 
 ## 📷 Imagen Del Landing Page
 
