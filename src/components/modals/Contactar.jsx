@@ -5,37 +5,28 @@ const Contactar = forwardRef(({ closeDialog }, ref) => {
   return (
     <dialog
       ref={ref}
-      className="p-8 bg-white rounded-3xl place-self-center text-center"
+      className="p-3 sm:p-8 bg-white rounded-3xl place-self-center text-center"
       closedby="any"
     >
-      <header>
-        <h2 className="text-2xl font-[700] text-[#ffa61e] font-[Righteous]">
-          Contactar Ahora
-        </h2>
-      </header>
+      <div className="flex flex-col place-items-center">
+        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 
-      {/* Formulario de contacto */}
-      <form className="grid gap-4 my-4" onSubmit={(e) => e.preventDefault()}>
-        <label htmlFor="">
-          <input
-            className="outline-none border-2 w-full rounded-3xl p-3"
-            type="text"
-            placeholder="Nombre"
-          />
-        </label>
+        <stripe-buy-button
+          buy-button-id="buy_btn_1R9V1II5g85vdJzPxKf3yRz6"
+          publishable-key="pk_test_51R9UkxI5g85vdJzPtDa7NcDxKchlsLZqyzOHweCLFVzmyF0181NOoUArMYMngXU1JCD556ErjORCrKQFCoYX1ZzT00IivkFlSs"
+        ></stripe-buy-button>
 
-        <label htmlFor="">
-          <input
-            className="outline-none border-2 w-full rounded-3xl p-3"
-            type="tel"
-            placeholder="Telefono"
-          />
-        </label>
+        <div className="flex items-center gap-2">
+          <hr className="border-t border-[#908b85] w-[50px]" />
+          <span className="text-[#908b85]">y/o</span>
+          <hr className="border-t border-[#908b85] w-[50px]" />
+        </div>
+
         <ButtonContactar closeDialog={closeDialog} />
-      </form>
-      <button className="font-[900]" onClick={closeDialog}>
-        Cerrar
-      </button>
+        <button className="font-[900]" onClick={closeDialog}>
+          Cerrar
+        </button>
+      </div>
     </dialog>
   );
 });

@@ -10,11 +10,10 @@ const ButtonContactar = ({closeDialog}) => {
     return (
     <button
       onClick={handleClick}
-      target="_blank"
       rel="noopener noreferrer"
-      className="block w-full py-3 px-14 bg-[#ef5532] rounded-3xl text-white"
+      className="block w-full py-3 px-14 bg-[#0074d4] rounded-3xl text-white my-5 font-[700]"
     >
-      Contactar ahora
+      Contactar
     </button>
   )
 }
