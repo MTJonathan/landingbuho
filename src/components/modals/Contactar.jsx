@@ -5,7 +5,7 @@ const Contactar = forwardRef(({ closeDialog }, ref) => {
   return (
     <dialog
       ref={ref}
-      className="p-3 sm:p-8 bg-white rounded-3xl place-self-center text-center"
+      className="p-3 sm:p-8 bg-white rounded-3xl place-self-center text-center overflow-hidden"
       closedby="any"
     >
       <div className="flex flex-col place-items-center">
