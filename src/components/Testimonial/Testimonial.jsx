@@ -2,7 +2,7 @@ import TestimonialContent from "./TestimonialContent";
 
 const Testimonial = () => {
   return (
-    <section className="px-2 py-8 md:px-20">
+    <section className="px-2 sm:px-8 py-8 lg:px-20">
       <header className="text-center">
         <h3 className="text-[#ffa61e] text-lg tracking-[11px]">TESTIMONIOS</h3>
         <h2 className="text-4xl font-[500] text-[#ffa61e] font-[Righteous] my-4">

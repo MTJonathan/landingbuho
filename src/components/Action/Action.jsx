@@ -8,10 +8,10 @@ const Action = () => {
   const OpenDialog = () => contactarRef.current.showModal();
   const CloseDialog = () => contactarRef.current.close();
   return (
-    <section className="bg-[#D0815C] px-2 py-8 md:px-20">
+    <section className="bg-[#D0815C] px-8 py-8 sm:px-20">
       <div className="grid md:grid-cols-2">
         <header className="flex flex-col justify-center">
-          <h2 className="text-5xl md:text-6xl font-[500] text-[#F0C76C] font-[Righteous] mb-6">
+          <h2 className="text-5xl lg:text-6xl font-[500] text-[#F0C76C] font-[Righteous] mb-6">
             📢¡Domina JavaScript Hoy Mismo!
           </h2>
           <h3 className="text-2xl text-center font-[500] text-white font-[Righteous] mb-6">
