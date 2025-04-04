@@ -3,7 +3,7 @@ import AboutCuadros from "./AboutCuadros"
 
 const About = () => {
   return (
-    <section className="px-2 py-8 md:px-20 bg-white">
+    <section className="px-5 sm:px-20 py-8 bg-white">
       <AboutHeader />
       <AboutCuadros />
     </section>
