@@ -12,8 +12,8 @@ const Banner = () => {
   return (
     // Banner de la pagina
     <section className="bg-white">
-      <div className="grid md:grid-cols-[3fr_1fr]">
-        <article className="p-2 md:py-8 md:px-20">
+      <div className="grid lg:grid-cols-[3fr_1fr]">
+        <article className="p-5 md:py-8 sm:px-20">
           <Nav />
           <header className="flex my-16">
             <article>
@@ -72,7 +72,7 @@ const Banner = () => {
             </div>
           </header>
         </article>
-        <div className="hidden md:block bg-[#ffa61e] w-full py-8 px-16">
+        <div className="hidden lg:block bg-[#ffa61e] w-full py-8 px-16">
           <NavIconos />
         </div>
       </div>
